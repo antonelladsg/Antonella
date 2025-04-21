@@ -1,0 +1,182 @@
+h1 {font-size: 400%;
+    justify-content: left;
+display: flex;
+font-weight: 400;
+font-family: "Alice", serif;
+font-optical-sizing: auto;
+padding:10px; 
+padding-bottom: 10px;
+font-style:inherit;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+body {
+ background-color: #f8f9fa;
+ font-family: "Alice", serif;
+
+
+    }
+
+.container{
+    display: flex;
+
+padding: 10px
+}
+
+form {
+    background-color: #f8f9fa;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: right;
+ 
+
+}
+
+form input {
+    flex: 1;
+    border: 0cap;
+    outline: 0cap;
+    background-color: transparent;
+    padding: 10px;
+    font-family: "Alice", serif;
+
+}
+form button {  
+background-color: transparent;
+border-radius: 50%;
+border: 0;
+outline: 0cap;
+cursor: pointer;
+
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+border-radius: 30px;
+height: 40px;
+align-items: center;
+justify-content: space-between;
+display: flex;
+}
+
+button {
+    background-color: #f8f9fa;
+border-radius: 50%;
+border: 0;
+outline: 0cap;
+cursor: pointer;
+
+}
+
+/*sidebar*/
+
+.sidebar {
+    width: 8rem;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    margin-top: 7rem;
+    padding: 5px;
+    padding-right: 20px;
+    overflow-y: auto;
+    background-color: white  ;
+    border: 10px;
+border-color: #f8f9fa;
+border-radius: 30px;
+
+}
+
+.sidebarlist
+ {
+    display: grid;
+    gap: 2rem;
+   padding: 2px;
+   overflow: hidden;
+   justify-content: center;
+   border: 10px;
+   border-color: #f8f9fa;
+   border-radius: 3%;
+}
+
+.sidebarelement { 
+    list-style-type: none;
+}
+
+.sidebarelement a { 
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    height: 250px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center ;
+    display: block;
+    background-image: url('latte-scaled.jpg')
+}
+
+.content-banner {
+    max-width: 100%;
+    padding: 30px;
+}
+
+.content-banner p {
+    margin-bottom: 1rem;
+    font-weight: 100px;
+    font-size: 30px;
+}
+.content-banner h2 {
+    color: white;
+    font-size: 3,5 rem; 
+    font-weight: 500;
+    line-height: 1,2;
+}
+.content-banner a{
+    margin-top: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+}
+footer {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+
+}
+
+
+.icons {
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    margin: 10px;
+    transition: 0,5;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    color: black;
+    text-decoration: none;
+}
+
