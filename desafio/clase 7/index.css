@@ -1,4 +1,4 @@
-h1 {font-size: 400%;
+h1 {font-size: 200%;
     justify-content: left;
 display: flex;
 font-weight: 400;
@@ -15,7 +15,8 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 body {
  background-color: #f8f9fa;
  font-family: "Alice", serif;
- padding-bottom: 100px;
+
+
     }
 
 .container{
@@ -64,13 +65,18 @@ display: flex;
 }
 
 button {
-    background-color: #f8f9fa;
+position: absolute;
+top: 10px;  
+right: 10px;
+z-index: 2;
+background-color: #f8f9fa;
 border-radius: 50%;
 border: 0;
 outline: 0cap;
 cursor: pointer;
 
 }
+
 
 .banner {
     height: 250px;
@@ -83,16 +89,16 @@ cursor: pointer;
 
 .content-banner {
     max-width: 100%;
-    padding: 30px;
+
 }
 
-.content-banner p {
+.content-banner h1 {
     margin-bottom: 1rem;
     font-weight: 100px;
     font-size: 30px;
 }
-.content-banner h2 {
-    color: white;
+.content-banner p {
+    color: black;
     font-size: 3,5 rem; 
     font-weight: 500;
     line-height: 1,2;
@@ -107,6 +113,35 @@ cursor: pointer;
     border-radius: 20px;
 }
 
+h2 { font-size: 200%;
+    justify-content: left;
+display: flex;
+font-weight: 400;
+font-family: "Alice", serif;
+font-optical-sizing: auto;
+padding:10px; 
+padding-bottom: 10px;
+font-style:inherit;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+text-decoration: underline;
+}
+
+   
+footer {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+
+}
 
 
 .icons {
@@ -123,4 +158,3 @@ cursor: pointer;
     color: black;
     text-decoration: none;
 }
-
